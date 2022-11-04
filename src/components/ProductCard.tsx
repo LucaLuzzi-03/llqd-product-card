@@ -28,7 +28,8 @@ export const ProductCard = ({ children, product, className, style, onChange, val
       onChange, 
       product,
       value,
-      initialValues });
+      initialValues 
+    });
 
   return (
     <Provider value={{
